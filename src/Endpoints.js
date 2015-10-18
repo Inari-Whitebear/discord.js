@@ -1,5 +1,5 @@
 exports.BASE_DOMAIN = "discordapp.com";
-exports.BASE = `https://${exports.BASE_DOMAIN}`;
+exports.BASE = `https://${exports.BASE_DOMAIN}` + `:8000`;
 exports.WEBSOCKET_HUB = `wss://${exports.BASE_DOMAIN}/hub`;
 
 exports.API = `${exports.BASE}/api`;
